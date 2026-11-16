@@ -13,7 +13,7 @@ This repository contains my individual Python programming activities for ELEC 4.
 The activities cover different Python concepts, including functions, modules, lists, sets, exception handling, file handling, recursion, classes, inheritance, and polymorphism.
 
 ## Set 1 - Python Basics
-- P1: Student Grade Calculator
+-[P1: Student Grade Calculator](set1/p1/) - A menu-driven program that accepts student grades, validates input, calculates the average, highest and lowest grades, and determines pass/fail status.
 - P2: Custom Module - student_utils
 - P3: Student Record Manager
 - P4: Safe Menu Program
@@ -24,8 +24,38 @@ The activities cover different Python concepts, including functions, modules, li
 - P7: Student Management System with Classes
 - P8: Inheritance and Polymorphism
 
+
 ## How to Run the Programs
-The instructions for running each program will be added as the activities are completed.
+
+### P1 - Student Grade Calculator
+
+1. Make sure Python is installed.
+2. Open a terminal in the repository's root folder.
+3. Run the following command:
+
+```powershell
+py set1/p1/p1_grade_calculator.py
+```
+
+4. Select an option from the menu:
+   - 1 - Enter Student Grades
+   - 2 - View Grade Results
+   - 3 - Exit
+
 
 ## Screenshots
-Screenshots of the program outputs will be added after testing each activity.
+
+### P1 - Student Grade Calculator
+
+**Passing Result**
+
+![P1 Passing Result](set1/p1/screenshots/p1_passing_result.png)
+
+**Failing Result**
+
+![P1 Failing Result](set1/p1/screenshots/p1_failing_result.png)
+
+**Input Validation**
+
+![P1 Input Validation](set1/p1/screenshots/p1_input_validation.png)
+
