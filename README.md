@@ -13,8 +13,8 @@ This repository contains my individual Python programming activities for ELEC 4.
 The activities cover different Python concepts, including functions, modules, lists, sets, exception handling, file handling, recursion, classes, inheritance, and polymorphism.
 
 ## Set 1 - Python Basics
--[P1: Student Grade Calculator](set1/p1/) - A menu-driven program that accepts student grades, validates input, calculates the average, highest and lowest grades, and determines pass/fail status.
-- P2: Custom Module - student_utils
+- [P1: Student Grade Calculator](set1/p1/) - A menu-driven program that accepts student grades, validates input, calculates the average, highest and lowest grades, and determines pass/fail status.
+- [P2: Custom Module - student_utils](set1/p2/) - A Python program that uses a custom module to calculate the average, highest and lowest grades, and pass/fail status. It also uses the built-in datetime module to show when the report was generated.
 - P3: Student Record Manager
 - P4: Safe Menu Program
 
@@ -43,6 +43,24 @@ py set1/p1/p1_grade_calculator.py
    - 3 - Exit
 
 
+### P2 - Custom Module: student_utils
+
+1. Make sure Python is installed.
+2. Open a terminal in the repository's root folder.
+3. Run the following command:
+
+```powershell
+py set1/p2/p2_main.py
+```
+
+4. Enter three student grades when prompted.
+5. The program will display the average, highest grade, lowest grade, pass/fail status, and date and time the report was generated.
+
+**Files used:**
+- `student_utils.py` - Contains the four reusable grade calculation functions.
+- `p2_main.py` - Accepts user input, imports the functions, and displays the grade report.
+
+
 ## Screenshots
 
 ### P1 - Student Grade Calculator
@@ -58,4 +76,16 @@ py set1/p1/p1_grade_calculator.py
 **Input Validation**
 
 ![P1 Input Validation](set1/p1/screenshots/p1_input_validation.png)
+
+
+### P2 - Custom Module: student_utils
+
+**Passing Result**
+
+![P2 Passing Result](set1/p2/screenshots/p2_passing_result.png)
+
+**Failing Result**
+
+![P2 Failing Result](set1/p2/screenshots/p2_failing_result.png)
+
 
