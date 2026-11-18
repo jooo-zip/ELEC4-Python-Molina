@@ -79,25 +79,47 @@ def display_students(students):
     print("Total Students:", len(students))
 
 
-# Temporary test program
+
+# Main program
 students = []
 student_names = set()
 
-add_student(students, student_names)
-add_student(students, student_names)
+print("Programmer: Joseph Molina Jr.")
+print("Section: IV-BSIT B")
 
-print("\nBefore removing:", students)
+while True:
+    print("\n===== STUDENT RECORD MANAGER =====")
+    print("1. Add Student")
+    print("2. Remove Student")
+    print("3. Search Student")
+    print("4. Display All Students")
+    print("5. Exit")
 
-remove_student(students, student_names)
+    choice = input("Choose an option (1-5): ")
 
-print("After removing:", students)
+    if choice == "1":
+        add_student(students, student_names)
 
-add_student(students, student_names)
+    elif choice == "2":
+        remove_student(students, student_names)
 
-print("Final student records:", students)
+    elif choice == "3":
+        search_student(students)
+
+    elif choice == "4":
+        display_students(students)
+
+    elif choice == "5":
+        print("Thank you for using the Student Record Manager!")
+        break
+
+    else:
+        print("Invalid option! Please choose 1, 2, 3, 4, or 5.")
 
 
-search_student(students)
-search_student(students)
 
-display_students(students)
+# List and Set Explanation:
+# A list stores multiple values in order and allows duplicate entries.
+# In my program, I used the students list to store the original names of the students.
+# A set stores unique values, so I used student_names to keep lowercase names and check for duplicates.
+# I update both collections when adding or removing students to keep the records consistent.
