@@ -16,8 +16,8 @@ The activities cover different Python concepts, including functions, modules, li
 - [P1: Student Grade Calculator](set1/p1/) - A menu-driven program that accepts student grades, validates input, calculates the average, highest and lowest grades, and determines pass/fail status.
 - [P2: Custom Module - student_utils](set1/p2/) - A Python program that uses a custom module to calculate the average, highest and lowest grades, and pass/fail status. It also uses the built-in datetime module to show when the report was generated.
 - [P3: Student Record Manager](set1/p3/) - A menu-driven Python program that uses lists and sets to add, remove, search, and display student names while preventing duplicate entries.
+- [P4: Safe Menu Program](set1/p4/) - A menu-driven Python program that performs division and reads text files while safely handling invalid inputs, division by zero, missing files, and invalid menu selections.
 
-- P4: Safe Menu Program
 
 ## Set 2 - Advanced Python
 - P5: Student Information File System
@@ -82,6 +82,26 @@ py set1/p3/p3_record_manager.py
 The program stores student names in a list and uses a set to prevent duplicate entries. It supports case-insensitive name checking, partial-name searching, and alphabetical display of students.
 
 
+### P4 - Safe Menu Program
+
+1. Make sure Python is installed.
+2. Open a terminal in the repository's root folder.
+3. Run the following command:
+
+    py set1/p4/p4_exceptions.py
+
+4. Choose an option from the menu:
+   - 1 - Divide Two Numbers
+   - 2 - Open a File
+   - 3 - Exit
+
+For Option 1, enter two numbers to perform division.
+
+For Option 2, enter a file path to read its contents. To test the provided sample file, enter `set1/p4/sample.txt`.
+
+The program uses try, except, else, and finally to handle exceptions. It catches ValueError, ZeroDivisionError, FileNotFoundError, and other file-related exceptions.
+
+
 ## Screenshots
 
 ### P1 - Student Grade Calculator
@@ -121,6 +141,30 @@ The program stores student names in a list and uses a set to prevent duplicate e
 **Removing and Displaying Student Records**
 
 ![P3 Remove and Display](set1/p3/screenshots/p3_remove_display.png)
+
+
+### P4 - Safe Menu Program
+
+**Successful Operations**
+
+![P4 Successful Operations](set1/p4/screenshots/p4_successful_operations.png)
+
+**Invalid Numerical Input**
+
+![P4 ValueError](set1/p4/screenshots/p4_invalid_number.png)
+
+**Division by Zero**
+
+![P4 ZeroDivisionError](set1/p4/screenshots/p4_division_by_zero.png)
+
+**File Not Found**
+
+![P4 FileNotFoundError](set1/p4/screenshots/p4_file_not_found.png)
+
+**Invalid Menu Selection**
+
+![P4 Invalid Menu](set1/p4/screenshots/p4_invalid_menu.png)
+
 
 
 
